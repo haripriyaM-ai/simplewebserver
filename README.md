@@ -76,11 +76,7 @@ server_address = ('', 8000)
 httpd = HTTPServer(server_address, MyHandler)
 print("My Simple book web server is running...")
 httpd.serve_forever()
-
-
-
 ```
-
 ## OUTPUT:
 ![alt text](<Screenshot 2025-05-01 205945.png>)
 
